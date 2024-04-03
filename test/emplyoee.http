@@ -1,0 +1,17 @@
+###s
+GET http://localhost:4004/odata/v4/employee/employee HTTP/1.1
+
+
+
+###
+POST http://localhost:4004/odata/v4/employee/employee HTTP/1.1
+Content-Type: application/json
+
+{
+      "fname": "ram",
+      "lname": "abc",
+      "age": 24,
+      "dob": "2001-02-01",
+      "email": "klm@gmail.com",
+      "phonenumber": "8976543298",
+}
