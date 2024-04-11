@@ -5,10 +5,10 @@ using { reusabletypes as types } from './reusable-types';
 
 
 
-entity employee:cuid, types.personaldetails{
+entity employee : cuid, types.personaldetails{
 
-     age : Integer;
-    dob  : Date;
+  age : Integer;
+   dob  : Date;
   email : types.email;
   phonenumber : types.phonenumber;
   adress          : Composition of address;

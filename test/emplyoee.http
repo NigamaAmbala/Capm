@@ -10,8 +10,36 @@ Content-Type: application/json
 {
       "fname": "ram",
       "lname": "abc",
-      "age": 24,
-      "dob": "2001-02-01",
+      "age": 0,
+      "dob": "2000-06-03",
       "email": "klm@gmail.com",
-      "phonenumber": "8976543298",
+      "phonenumber": "8976543298"
 }
+###
+# POST https://localhost:4004/odata/v4/employee/employee HTTP/1.1
+
+# Content-Type:application/json
+
+# {
+#       "fname": "ram",
+#       "lname": "abc",
+#       "age": 24,
+#       "dob": "2001-02-01",
+#       "email": "klm@gmail.com",
+#       "phonenumber": "8976543298"
+# }
+###
+# POST url HTTP/1.1
+# header name: header value
+
+# content  http://localhost:4004/odata/v4/employee/employee HTTP/1.1
+# Content-Type: application/json
+
+# {
+#       "fname": "ram",
+#       "lname": "abc",
+#       "age": 0,
+#       "dob": "2000-06-03",
+#       "email": "klm@gmail.com",
+#       "phonenumber": "8976543298"
+# }
